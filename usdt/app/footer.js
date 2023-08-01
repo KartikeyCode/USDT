@@ -90,7 +90,7 @@ return(
     </div>
 
     <div className="Terms flex lg:mt-6 items-end justify-end ">
-    <h2 className="text-gray-600 lg:mt-0  mt-8 mr-6 text-xs font-semibold  font-Mono"> Privacy Policy // Terms of Rewards Program </h2>
+    <button className="text-gray-600 lg:mt-0 hover:bg-[#C9FE36] hover:text-inherit  mt-8 mr-6 text-[10px] font-semibold  font-Mono"> Privacy Policy // Terms of Rewards Program </button>
     </div>
 </div>
     )
