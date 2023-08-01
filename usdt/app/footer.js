@@ -1,5 +1,7 @@
 "use client"
 import { motion } from "framer-motion"
+import Link from 'next/link'
+
 export default function Footer(){
 return(
 
@@ -7,7 +9,9 @@ return(
     <div className="flex flex-col lg:flex-row  ">
 
     <div className=" justify-center self-center mt-4 lg:mr-48 ">
-    <h1 className="text-white lg:ml-8 text-xl font-semibold font-Mono   ">the new internet is here</h1>
+        <Link href="/">
+    <h1 className="text-white cursor-pointer hover:scale-105 lg:ml-8 text-xl font-semibold font-Mono   ">the new internet is here</h1>
+        </Link>
     </div>
 
     <div className=" lg:flex-col  lg:mt-6  lg:justify-center lg:items-center ">
@@ -16,7 +20,9 @@ return(
     <div className="flex basis-1/2 justify-between lg:justify-center  lg:gap-x-10 lg:px-0  gap-x-20 mt-4  px-8 lg:flex-nowrap flex-wrap">
 
     <div className="About ">
+    <Link href="/About">
     <button className="text-white hover:bg-[#C9FE36] hover:text-inherit text-base font-medium font-Mono"> About </button>
+    </Link>
     </div>
 
     <div className=" / ">
@@ -24,7 +30,9 @@ return(
     </div>
 
     <div className="Events">
+        <Link href="/Events">
     <button className="text-white hover:bg-[#C9FE36] hover:text-inherit text-base font-medium font-Mono"> Events </button>
+        </Link>
     </div>
 
     <div className=" / hidden lg:block">
@@ -46,9 +54,10 @@ return(
     </div>
 
     <div className="flex basis-1/2 justify-between lg:justify-center  lg:flex-nowrap lg:px-0 lg:gap-x-8 gap-x-16 mt-3  px-8 flex-wrap">
-
     <div className="Podcasts">
+    <Link href="/Podcast">
     <button className="text-white hover:bg-[#C9FE36] hover:text-inherit text-base font-medium font-Mono"> Podcasts </button>
+    </Link>
     </div>
 
     <div className=" / ">
