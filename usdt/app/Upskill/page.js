@@ -27,7 +27,7 @@ export default function Upskill() {
         animate="animate"
         initial="initial"
         variants={overlayVariants}
-        className="overlay flex lg:flex-row gap-4 lg:gap-12 flex-col justify-center items-center  top-0 border-2 border-dotted border-[#C9FE36] absolute w-full bg-[#17191C] h-[67vh] lg:h-[82vh] z-10"
+        className="overlay flex lg:flex-row gap-4 lg:gap-12 flex-col justify-center items-center  top-0 border-2 border-dotted border-[#C9FE36] absolute w-full bg-[#17191C] h-[71vh] lg:h-[80.1vh] z-10"
       >
 
     
@@ -59,7 +59,7 @@ export default function Upskill() {
 
       </motion.div>
 
-      <div className=" z-0 ">
+      <div className=" flex-1 w-screen z-0 ">
         {/* Contains the Image to be replaced */}
         <Image src={USDT} className="h-[65vh] lg:h-[80vh]" />
       </div>

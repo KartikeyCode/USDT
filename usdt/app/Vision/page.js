@@ -30,7 +30,7 @@ const wordVariants = {
             variants={wordVariants}
             initial="hidden"
             animate="visible"
-            transition={{ delay:1+ index * 0.2, duration: 0.5 }}
+            transition={{ delay:1+ index * 0.15, duration: 0.5 }}
           >
             {word}{" "}
           </motion.span>
@@ -49,7 +49,7 @@ const wordVariants = {
             variants={wordVariants}
             initial="hidden"
             animate="visible"
-            transition={{ delay:10+ index * 0.2, duration: 0.5 }}
+            transition={{ delay:7.5+ index * 0.15, duration: 0.5 }}
           >
             {word}{" "}
           </motion.span>
@@ -76,7 +76,7 @@ export default function Vision() {
       
       </motion.div>
 
-      <div className=" z-0 ">
+      <div className=" flex-1 w-screen z-0 ">
         {/* Contains the Image to be replaced */}
         <Image src={USDT} className="h-[65vh] lg:h-[80vh]" />
       </div>
