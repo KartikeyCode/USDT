@@ -17,11 +17,11 @@ return(
     <div className=" lg:flex-col  lg:mt-6  lg:justify-center lg:items-center ">
 
 
-    <div className="flex basis-1/2 justify-between lg:justify-center  lg:gap-x-10 lg:px-0  gap-x-20 mt-4  px-8 lg:flex-nowrap flex-wrap">
+    <div className="flex  justify-between lg:justify-center  lg:gap-x-9 lg:px-0  gap-x-20 mt-4  px-8 lg:flex-nowrap flex-wrap">
 
-    <div className="About ">
-    <Link href="/About">
-    <button className="text-white hover:bg-[#C9FE36] hover:text-inherit text-base font-medium font-Mono"> About </button>
+    <div className="Vision ">
+    <Link href="/Vision">
+    <button className="text-white hover:bg-[#C9FE36] hover:text-inherit text-base font-medium font-Mono"> Vision </button>
     </Link>
     </div>
 
@@ -29,9 +29,9 @@ return(
     <h1 className="text-slate-500 text-base font-medium font-Mono"> / </h1>
     </div>
 
-    <div className="Events">
-        <Link href="/Events">
-    <button className="text-white hover:bg-[#C9FE36] hover:text-inherit text-base font-medium font-Mono"> Events </button>
+    <div className="Xplorers">
+        <Link href="/Xplorers">
+    <button className="text-white hover:bg-[#C9FE36] hover:text-inherit text-base font-medium font-Mono"> Xplorers </button>
         </Link>
     </div>
 
@@ -39,24 +39,28 @@ return(
     <h1 className="text-slate-500 text-base font-medium font-Mono"> / </h1>
     </div>
 
-    <div className="Join">
-    <button className="text-white hover:bg-[#C9FE36] hover:text-inherit text-base font-medium font-Mono"> Join </button>
+    <div className="Startups">
+        <Link href="/Startups">
+    <button className="text-white hover:bg-[#C9FE36] hover:text-inherit text-base font-medium font-Mono"> Startups </button>
+        </Link>
     </div>
 
     <div className=" / ">
     <h1 className="text-slate-500 text-base font-medium font-Mono"> / </h1>
     </div>
 
-    <div className="Zine">
-    <button className="text-white hover:bg-[#C9FE36] hover:text-inherit text-base font-medium font-Mono"> Zine </button>
+    <div className="Contact">
+        <Link href="/Contact">
+    <button className="text-white hover:bg-[#C9FE36] hover:text-inherit text-base font-medium font-Mono"> Contact </button>
+        </Link>
     </div>
 
     </div>
 
-    <div className="flex basis-1/2 justify-between lg:justify-center  lg:flex-nowrap lg:px-0 lg:gap-x-8 gap-x-16 mt-3  px-8 flex-wrap">
-    <div className="Podcasts">
-    <Link href="/Podcast">
-    <button className="text-white hover:bg-[#C9FE36] hover:text-inherit text-base font-medium font-Mono"> Podcasts </button>
+    <div className="flex  justify-between lg:justify-center  lg:flex-nowrap lg:px-0 lg:gap-x-8 gap-x-16 mt-3  px-8 flex-wrap">
+    <div className="Get Started">
+    <Link href="/GetStarted">
+    <button className="text-white hover:bg-[#C9FE36] hover:text-inherit text-base font-medium font-Mono"> Get Started </button>
     </Link>
     </div>
 
@@ -64,24 +68,30 @@ return(
     <h1 className="text-slate-500 text-base font-medium font-Mono"> / </h1>
     </div>
 
-    <div className="Youtube">
-    <button className="text-white hover:bg-[#C9FE36] hover:text-inherit text-base font-medium font-Mono"> Youtube </button>
+    <div className="Members">
+    <Link href="/Members">
+    <button className="text-white hover:bg-[#C9FE36] hover:text-inherit text-base font-medium font-Mono"> Members </button>
+    </Link>
     </div>
 
     <div className=" / hidden lg:block">
     <h1 className="text-slate-500 text-base font-medium font-Mono"> / </h1>
     </div>
 
-    <div className="Twitter">
-    <button className="text-white hover:bg-[#C9FE36] hover:text-inherit text-base font-medium font-Mono"> Twitter </button>
+    <div className="Upskill">
+        <Link href="/Upskill">
+    <button className="text-white hover:bg-[#C9FE36] hover:text-inherit text-base font-medium font-Mono"> Upskill </button>
+        </Link>
     </div>
 
     <div className=" / ">
     <h1 className="text-slate-500 text-base font-medium font-Mono"> / </h1>
     </div>
 
-    <div className="Insta">
-    <button className="text-white hover:bg-[#C9FE36] hover:text-inherit text-base font-medium font-Mono"> Insta </button>
+    <div className="FAQs">
+        <Link target="_blank" href="https://capx.club/faqs">
+    <button className="text-white hover:bg-[#C9FE36] hover:text-inherit text-base font-medium font-Mono"> FAQs </button>
+        </Link>
     </div>
 
     </div>

@@ -17,7 +17,7 @@ const overlayTransition = {
 
   
   
-export default function Events() {
+export default function Xplorers() {
   return (
     <div className="min-h-screen  bg-[#0C0E12] flex-col w-screen relative overflow-hidden">
       <motion.div
@@ -26,7 +26,7 @@ export default function Events() {
         animate="animate"
         initial="initial"
         variants={overlayVariants}
-        className="overlay flex items-center justify-center top-0 border-2 border-dotted border-[#C9FE36] absolute w-full bg-[#0C0E12] h-[65vh] lg:h-[80vh] z-10"
+        className="overlay flex items-center justify-center top-0 border-2 border-dotted border-[#C9FE36] absolute w-full bg-[#17191C] h-[65vh] lg:h-[80vh] z-10"
       >
 
 
