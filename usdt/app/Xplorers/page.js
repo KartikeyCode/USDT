@@ -83,7 +83,7 @@ export default function Xplorers() {
 
       <div className=" flex-1 w-screen z-0 ">
         {/* Contains the Image to be replaced */}
-        <Image src={USDT} className="h-[65vh] lg:h-[80vh]" />
+        <Image src={USDT } className="h-[65vh] lg:h-[80vh]" />
       </div>
       <Footer />
     </div>
